@@ -4,25 +4,29 @@ import React from "react";
 import rigoImage from "../../img/rigo-baby.jpg";
 
 //create your first component
-const Home = () => {
-	return (
-		<div className="text-center">
-            
+// function SecondsCounter(props) {
+//   return (
+//     <div className="container">
+//       <div className="clock">
+//         <FontAwesomeIcon icon={faClock} />
+//       </div>
+//       <div className="six">{props.digitSix % 10}</div>
+//       <div className="five">{props.digitFive % 10}</div>
+//       <div className="four">{props.digitFour % 10}</div>
+//       <div className="three">{props.digitThree % 10}</div>
+//       <div className="two">{props.digitTwo % 10}</div>
+//       <div className="one">{props.digitOne % 10}</div>
+//     </div>
+//   );
+// };
 
-			<h1 className="text-center mt-5">Hello Rigo!</h1>
-			<p>
-				<img src={rigoImage} />
-			</p>
-			<a href="#" className="btn btn-success">
-				If you see this green button... bootstrap is working...
-			</a>
-			<p>
-				Made by{" "}
-				<a href="http://www.4geeksacademy.com">4Geeks Academy</a>, with
-				love!
-			</p>
-		</div>
-	);
-};
+// SecondsCounter.propTypes = {
+//   digitSix: PropTypes.number,
+//   digitFive: PropTypes.number,
+//   digitFour: PropTypes.number,
+//   digitThree: PropTypes.number,
+//   digitTwo: PropTypes.number,
+//   digitOne: PropTypes.number,
+// };
 
-export default Home;
+// export default Home;

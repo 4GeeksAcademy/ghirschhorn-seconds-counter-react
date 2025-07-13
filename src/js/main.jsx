@@ -51,7 +51,7 @@ setInterval(function () {
 
   counter++;
 
-  // console.log(six, five, four, three,two, one);
+  // console.log(six, five, four, three, two, one);
 
   ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
